@@ -1,5 +1,8 @@
 {
   "name": "netlify-test",
+  "scripts": {
+    "build": "echo test"
+  },
   "dependencies": {
     "lodash": "^4.17.11"
   }
