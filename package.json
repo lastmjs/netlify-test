@@ -1,7 +1,7 @@
 {
   "name": "netlify-test",
   "scripts": {
-    "build": "mkdir dist && mkdir ../dist && cp -r ./* ../dist-temp && cp -r ../dist-temp dist"
+    "build": "rm -rf dist && rm -rf ../dist-temp && mkdir dist && mkdir ../dist-temp && cp -r ./* ../dist-temp && cp -r ../dist-temp/* dist && rm -rf ../dist-temp"
   },
   "dependencies": {
     "lodash": "^4.17.11"
